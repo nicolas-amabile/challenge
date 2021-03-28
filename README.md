@@ -1,4 +1,4 @@
-#Challenge
+# Challenge
 
 ## Scripts
 - `npm start` for running the main function

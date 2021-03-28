@@ -1,8 +1,8 @@
-import { main } from './index.mjs';
+import { pairProgramming, testParticipants } from './index.mjs';
 
 describe('Challenge', () => {
-  it('Runs the function correctly', () => {
-    const result = main();
-    expect(result).toBe('Hi!');
+  it('Exercise 1: Pair programming', () => {
+    const result = pairProgramming(testParticipants);
+    expect(result).toBe([]); // ie [{ driver: 'Zidane', observer: 'Messi' }, ...];
   });
 });
